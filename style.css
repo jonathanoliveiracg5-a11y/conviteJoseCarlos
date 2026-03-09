@@ -34,15 +34,21 @@ body {
 }
 
 /* Convite */
-.convite {
+.convite{
   width: 100%;
-  max-width: 380px;
-  aspect-ratio: 3/4;
+  max-width: 360px;
+  height: 520px;
 
-  background: url("beckgraodConvite.png") no-repeat center;
+  background-image: url("beckgraodConvite.png");
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 
   border-radius: 15px;
+
+  position: relative;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,.3);
 }
 
 /* Área data e hora */
@@ -140,27 +146,22 @@ font-size:32px;
 }
 
 /* Área dos botões (dentro do convite) */
-.acoes {
+.acoes{
   position: absolute;
 
+  bottom: 60px;
   left: 50%;
+
   transform: translateX(-50%);
 
-  bottom: 400px;
-  /* distância da borda de baixo */
-
-  width: 100%;
-  max-width: 340px;
+  width: 90%;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-
-  gap: 20px;
 }
-
 /* Botão */
-.acao {
+.acao{
   text-decoration: none;
 
   display: flex;
@@ -170,8 +171,9 @@ font-size:32px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 
-  width: 100px;
-  padding: 10px;
+  width: 90px;
+
+  text-align: center;
 }
 
 .acao {
