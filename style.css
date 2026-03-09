@@ -38,20 +38,7 @@ body{
 
 /* Convite */
 .convite{
-  width: 100%;
-  max-width: 360px;
-  height: 520px;
-
-  background-image: url("beckgraodConvite.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  border-radius: 15px;
-
-  position: relative;
-
-  box-shadow: 0 10px 25px rgba(0,0,0,.3);
+border:4px solid red;
 }
 
 /* Área data e hora */
@@ -243,3 +230,4 @@ font-weight:bold;
 
 box-shadow:0 6px 20px rgba(0,0,0,.3);
 }
+
