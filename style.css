@@ -17,8 +17,8 @@ body{
 
 /* Convite */
 .convite{
-  width: 360px;
-  height: 520px;
+  width: 95px;
+  height: 360px;
 
   background: url("beckgraodConvite.png") no-repeat center;
   background-size: cover;
@@ -189,4 +189,5 @@ body{
   transform: scale(1.05);
   transition: 0.2s;
 }
+
 
